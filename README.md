@@ -48,7 +48,7 @@
 
 ### EventBus
 
-> 注意：完整的 EventBus 說明請參考 [EventBus 文件](./EventBus.md)
+> 注意：完整的 EventBus 說明請參考 [EventBus 文件](https://github.com/yttsai1511/csharp-event-bus-library#功能特色)
 
 事件系統核心，實現發布-訂閱模式的事件傳遞機制。框架中通過 `EventBus.Instance` 全域實例存取事件系統：
 
@@ -142,7 +142,7 @@ public sealed partial class GameController : SingletonObject<GameController>
 
 ## 事件系統詳解
 
-> 注意：詳細的事件系統實現與使用範例請參考 [EventBus 文件](./EventBus.md)
+> 注意：詳細的事件系統實現與使用範例請參考 [EventBus 文件](https://github.com/yttsai1511/csharp-event-bus-library#使用範例)
 
 ### 事件設計原則
 
@@ -203,8 +203,8 @@ EventBus.Instance.Unsubscribe<Action<string>>(GameEvents.UI.Action, OnUIAction);
 ```
 
 關於 EventBus 的詳細實現與更多使用範例，請參考：
-- [EventBus 文件](./EventBus.md#使用範例)
-- [EventBus API 說明](./EventBus.md#文件說明)
+- [EventBus 文件](https://github.com/yttsai1511/csharp-event-bus-library#使用範例)
+- [EventBus API 說明](https://github.com/yttsai1511/csharp-event-bus-library#文件說明)
 
 ## 遊戲狀態流程
 
